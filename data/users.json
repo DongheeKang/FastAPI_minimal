@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Donghee Kang",
+    "mail": "donghee.kang@@blueyonder.com",
+    "phone": "98769878"
+  },
+  {
+    "id": 2,
+    "name": "Fabian Gebhart",
+    "mail": "fabian.gebharto@blueyonder.com",
+    "phone": "94435676"
+  }
+  {
+    "id": 3,
+    "name": "Sven Fritz",
+    "mail": "sven.fritz@blueyonder.com",
+    "phone": "94435676"
+  }
+]
