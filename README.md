@@ -4,12 +4,12 @@ A simple example of using Fast API in Python.
 
 ## Preconditions:
 
-- Python 3
+- Python 3.8.1
 
 ## Clone the project
 
 ```
-git clone https://github.com/marciovrl/fastapi-example.git
+git clone https://github.com/DongheeKang/Fastapi_minimal.git
 ```
 
 ## Run local
@@ -21,7 +21,8 @@ pip install -r requirements.txt
 ```
 
 ### Run server
-
+Uvicorn is an ASGI web server implementation for deployment with python
+Typically you should run uvicorn from the command line.
 ```
 uvicorn app.main:app --reload
 ```
@@ -52,8 +53,12 @@ docker-compose exec app pytest test/test.py
 http://127.0.0.1:8000/docs
 ```
 
-### Run server
+### Run server with postgres
 
 ```
 docker-compose exec db psql --username=fastapi --dbname=fastapi_dev
 ```
+
+### Continuous Integration is implemented by circleCI 
+If you want to use github actions for build in CI, there is an easy step to migrate from circleci to github actions. 
+https://docs.github.com/en/actions/migrating-to-github-actions/migrating-from-circleci-to-github-actions
